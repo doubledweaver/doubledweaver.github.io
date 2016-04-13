@@ -15,6 +15,9 @@ body {
 
 /* styles for header and navigation */
 
+h1 {
+    padding-top: 15px;
+}
 .logo {
     border-radius: 50%; /* rounds the corners of the square image so it displays as a circle */
 }
@@ -50,10 +53,12 @@ nav a:hover {
 /* styles for main content */
 
 #hero {
-    width: 100%; /* makes width of the hero image 100% of the .container */
+    width: 95%; /* makes width of the hero image 95% of the .container */
 }
 
-
+p {
+    padding: 0 5px 0 5px;
+}
 
 /* styles for footer */
 
