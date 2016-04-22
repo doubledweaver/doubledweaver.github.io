@@ -29,6 +29,7 @@ header, footer {
 nav ul {
     list-style-type: none; /* removes bullet points from list */
     padding: 0; /* removes padding from ul */
+    background-color: 
 }
 
 nav li {
