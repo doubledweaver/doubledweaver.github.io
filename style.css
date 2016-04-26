@@ -5,12 +5,15 @@ body {
     font-family: Arial, sans-serif;
     color: #DA9F93;
     background-color: #000000;
+
 }
+
+
 
 .container {
     width: 80%; /* makes all content take up 80% no matter how wide the page is */
     margin: 0 auto; /* removes top and bottom margins, left/right margins automatically determined */
-    background-color: #890620;
+    background-image: url("images/curtain.jpg");
 }
 
 /* styles for header and navigation */
@@ -19,6 +22,7 @@ h1 {
     padding-top: 15px;
 }
 .logo {
+    padding-top: 15px;
     border-radius: 50%; /* rounds the corners of the square image so it displays as a circle */
 }
 
@@ -43,7 +47,11 @@ nav li {
 /* :link - link by itself */
 nav a:active, nav a:hover, nav a:visited, nav a:link {
     text-decoration: none; /* in this case, removes default underline from the links */
-    color: #000000; /* changes font color to black */
+    color: #DA9F93; /* changes font color to black */
+}
+p {
+    padding: 0 10px 0 15px;
+    text-align: center;
 }
 
 nav a:hover {
@@ -57,13 +65,16 @@ nav a:hover {
     width: 95%; /* makes width of the hero image 95% of the .container */
 }
 
-p {
-    padding: 0 10px 0 15px;
-}
+
 
 /* styles for footer */
 
 footer {
     font-size: 0.75em; /* changes the font size */
     padding: 0.5em 0; /* adds padding on top/bottom, nothing on left/right */
+}
+
+
+section {
+    float: right;
 }
