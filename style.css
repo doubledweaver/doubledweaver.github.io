@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     color: #DA9F93;
     background-color: #000000;
-    background: url("../images/BackdropCurtain.jpg");
+    background: url("images/BackdropCurtain.jpg");
 }
 
 .container {
